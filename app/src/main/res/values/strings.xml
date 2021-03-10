@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Book App</string>
+    <string name="open_drawer">open_drawer</string>
+    <string name="close_drawer">close_drawer</string>
+    <string name="hello_blank_fragment">Library</string>
+    <string name="hello_fragment">Favorite Fragment</string>
+    <string name="hello__fragment">About Fragment</string>
+    <string name="hello____fragment">Help Fragment</string>
+</resources>

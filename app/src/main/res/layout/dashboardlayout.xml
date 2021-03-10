@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.androzid.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <TextView
+        android:fontFamily="@font/goog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img1"
+        android:layout_marginLeft="250dp"
+        android:text="1"
+        android:id="@+id/t6"
+        android:visibility="invisible"/>
+<ImageView
+    android:scaleType="centerCrop" android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/ic_help"
+    android:id="@+id/img1"
+    android:padding="5dp"
+    android:layout_margin="10dp"/>
+    <TextView
+        android:textColor="@android:color/black"
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img1"
+        android:text="ALICE IN WONDERLAND"
+        android:fontFamily="@font/goog"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img1"
+        android:layout_below="@id/t1"
+        android:fontFamily="@font/goog"
+        android:textSize="18sp"
+        android:text="Name of the author"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:textColor="@android:color/holo_green_dark"
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img1"
+        android:text="Rs : 250"
+        android:fontFamily="@font/goog"
+        android:layout_below="@id/t2"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:layout_toRightOf="@id/img1"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:text="4.5"
+        android:fontFamily="@font/goog"
+        android:textSize="20sp"
+        android:id="@+id/t5"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/t5"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_stary"/>
+
+
+
+
+
+
+
+</RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

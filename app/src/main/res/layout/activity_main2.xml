@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2">
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/cardview_light_background"
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#eb3471"/>
+
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <TextView
+            android:fontFamily="@font/goog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="250dp"
+            android:text="1"
+            android:id="@+id/t6"
+            android:visibility="invisible"/>
+        <ImageView
+            android:scaleType="centerCrop" android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_help"
+            android:id="@+id/img1"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:text="ALICE IN WONDERLAND"
+            android:fontFamily="@font/goog"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/t1"
+            android:fontFamily="@font/goog"
+            android:textSize="18sp"
+            android:text="Name of the author"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:textColor="@android:color/holo_green_dark"
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:text="Rs : 250"
+            android:fontFamily="@font/goog"
+            android:layout_below="@id/t2"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t2"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="10dp"
+            android:text="4.5"
+            android:fontFamily="@font/goog"
+            android:textSize="20sp"
+            android:id="@+id/t4"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/t4"
+            android:layout_marginTop="122dp"
+            android:src="@drawable/ic_stary"/>
+
+
+
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/txtabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout1"
+            android:padding="20dp"
+            android:text="About the Book"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/goog"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"/>
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtabout">
+        <TextView
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The About for the app comes here"
+            android:fontFamily="@font/goog"
+            android:textSize="16dp"
+            android:id="@+id/abouttextview"/>
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/radius"
+        android:fontFamily="@font/goog"
+        android:padding="5dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentRight="true"
+        android:text="ADD TO FAVORITES"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/favoritebutton"/>
+    <RelativeLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <ProgressBar
+            android:outlineAmbientShadowColor="@android:color/holo_green_dark"
+            android:outlineSpotShadowColor="@android:color/holo_green_dark"
+            android:id="@+id/prog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
